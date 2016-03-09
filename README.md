@@ -1,5 +1,6 @@
 Application allow to configure redirect after some service migration.
 
+```usage
 Usage of ./goredirect:
 
   -dport int
@@ -10,4 +11,5 @@ Usage of ./goredirect:
     	template to redirect (default "http://[%HOST%]:[%PORT%]/[%PATH%]")
   -rcode int
       	responce code (default:301) (default 301)
+```usage
       	
